@@ -1,0 +1,25 @@
+//default parameters
+
+// write a arrow function with default parameters to add 2 numbers
+
+
+const addNumbers = (a,b=1) => a+b
+console.log(addNumbers(2))
+
+// write a arrow function with default parameters to multiply with 2 numbers
+
+const multiplyNumbers = (a,b=1) => a*b
+console.log(multiplyNumbers(2,3))
+
+// write a arrow function with default parameters to concatenate with 2 numbers
+
+const conctenateStrings = (name,greeting = "hello") => name + greeting;
+console.log(conctenateStrings("sanjay"))
+
+// write a arrow function with default parameters to greet user
+const greetUser = (name="neogramer",greeting = "hello") => name + greeting;
+console.log(greetUser())
+
+// write a arrow function with default parameters to add 3 numbers
+const addThreeNumbers = (a,b,c=3) => a+b+c
+console.log(addThreeNumbers(3,5))
